@@ -1,0 +1,140 @@
+.home-container {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background-image: url('https://i.pinimg.com/564x/90/ca/aa/90caaa56255abb31bfff1623161d76ce.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+
+
+
+
+.popular-food-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.food-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.food-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.food-card:hover {
+    transform: scale(1.05);
+}
+
+.food-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.food-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.food-info h3 {
+    margin: 0 0 10px;
+}
+
+.food-info p {
+    margin: 0 0 10px;
+}
+
+.food-info button {
+    background: rgb(253, 20, 8);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-section {
+    padding: 40px 20px;
+}
+
+.cart-items {
+    display: grid;
+    gap: 20px;
+}
+
+.cart-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-summary {
+    margin-top: 20px;
+}
+
+.cart-summary p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-section {
+    text-align: center;
+    margin-top: 40px; /* Ajustez la marge selon vos besoins */
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.8;
+}
